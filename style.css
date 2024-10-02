@@ -1,0 +1,57 @@
+.centerimage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    border-radius: 3%;
+}
+
+header{
+ display: block;
+ border-bottom: solid;
+ border-color: orange;
+}
+
+.centernav{
+    margin-left: 40%;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-left: 25%;
+}
+
+.textcenter{
+    display: block;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+
+
+.imagefoc{
+    display: block;
+    margin-left: 27%;
+    margin-right: 15%;
+    width:45%;
+    height: 50%;
+}
+.citeposition{
+    display: block;
+    margin-left: 45%;
+    margin-right: 10%;
+    color:grey
+}
+
+strong{
+    color:orange;
+}
+
+.ingredienti{
+    display: block;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-bottom: 2em;
+    border-color: aqua;
+}
+
