@@ -1,57 +1,102 @@
-.centerimage{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,600;1,700&display=swap');
+
+
+header{
+    background-color: rgb(0, 126, 138);
+    display: block;
     display: block;
     margin-left: auto;
+    margin-right: 37px;
+    width:60%;
+    height: 60%;
+    border-radius: 3%;
+}
+.logo{
+    width: 50%;
+    height: 65%;
+    margin-left: 4em;
     margin-right: auto;
-    width: 20%;
+}
+
+body{
+    background-image: url(../img/sfondo.png);
+}
+
+h1{
+    color:aliceblue;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: "Poppins", system-ui;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.primi{
+    display: block;
+    color: aliceblue;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-decoration: none;
+}
+
+h2{
+    font-size: 30px;
+
+}
+
+main{
+    background-color:aliceblue;
+    display: block;
+    display: block;
+    margin-left: auto;
+    margin-right: 37px;
+    width:60%;
+    height: 100%;
+    border-radius: 3%;
+}
+cite{
+    color:gray;
+}
+.paragrafo1{
+    margin-right: 37px;
+    margin-left: auto;
+}
+
+th{
+    background-color: rgb(17, 17, 93);
+}
+
+/* TABELLE */
+
+.novita{
+    background-color:gray;
+    display: block;
+    display: block;
+    margin-left: auto;
+    margin-right: 37px;
+    width:100%;
+    height: 100%;
     border-radius: 3%;
 }
 
-header{
- display: block;
- border-bottom: solid;
- border-color: orange;
+iframe{
+    width: 100%;
+    height: 20%;
+    border-radius: 10%;
 }
 
-.centernav{
-    margin-left: 40%;
-}
-h1 {
+footer{
+    background-color: rgb(0, 126, 138);
     display: block;
-    font-size: 2em;
-    margin-left: 25%;
-}
-
-.textcenter{
     display: block;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: auto;
+    margin-right: 37px;
+    width:60%;
+    height: 60%;
+    border-radius: 3%;
+    color:aliceblue;
 }
 
-
-
-.imagefoc{
-    display: block;
-    margin-left: 27%;
-    margin-right: 15%;
-    width:45%;
-    height: 50%;
+button{
+    background-color:blue;
 }
-.citeposition{
-    display: block;
-    margin-left: 45%;
-    margin-right: 10%;
-    color:grey
-}
-
-strong{
-    color:orange;
-}
-
-.ingredienti{
-    display: block;
-    margin-left: 25%;
-    margin-right: 25%;
-    border-bottom: 2em;
-    border-color: aqua;
-}
-
