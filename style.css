@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap');
+
+
+body{
+    text-align: center;
+}
+header{
+    display: block;
+    background-color: black;
+    height: 100px;
+}
+.logo{
+    display: flex;
+    align-items:center;
+    width:auto;
+    height: 9vh;
+    margin-left: 120px;
+    margin-top: 0;
+}
+nav{
+    display:block;
+    background-image:url(../images/banner.jpg);
+    background-size: 160%;
+}
+h1{
+    display:block;
+    color:#118f8f;
+    font-size:45px;
+    font-family:'Open Sans';
+    font-weight: 700;
+}
+.paragrafi{
+    display:block;
+    color:#393d41 ;
+    font-size: 1.2rem;
+    font-family:'Open Sans';
+    font-weight: 400;
+    line-height: 1.65;
+}
+
+button{
+    display:inline-block;
+    background-color: #f04c2f ;
+    color:white;
+    font-family: "Montserrat";
+    height: 40px;
+    width: 130px;
+    font-size: 15px;
+    border:none;
+    border-radius: 4px;
+}
+
+.blue2{
+    display:block;
+    color:#25a2c3 ;
+    font-family: "Montserrat";
+    font-size:20px;
+    list-style: 1.5;
+}
+
+
+.immagine1{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+
+.aside1{
+    background-color: #e22d0e;
+    color:aliceblue;
+}
+h2{
+    font-size: 35px;
+    font-family:'Open Sans';
+    font-weight: 700;
+}
+strong{
+    font-size: 24px;
+}
+
+
+div{
+  display: inline-block; 
+  border: 1px solid #dee1e3 ;
+  width: 300px;
+  height: 370px;
+}
+
+
+.immagine2{
+    width: 300px;
+    height: 200px;
+}
+
+footer{
+    background-color: #25a2c3;
+    color:white;
+}
+
+h4{
+    font-size: 35px;
+    font-family: "Montserrat";
+    list-style: 1.5;
+    color: white;
+}
+
+
+hr{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.intervista{
+    font-size: 1.2rem;
+    font-family:'Open Sans';
+    font-weight: 400;
+    line-height: 1.65;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+address{
+    font-size: 1.2rem;
+    font-family:'Open Sans';
+    font-weight: 400;
+    line-height: 1.65;
+}
